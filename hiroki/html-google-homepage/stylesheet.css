@@ -8,16 +8,23 @@ section > div {
   text-align: center;
 }
 
-section img,
-section input,
-section button {
+section input {
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
+}
+
+section img {
+  display: block;
+  width: 300px;
+  margin: 100px auto 20px auto;
+}
+
+section button {
+  display: inline-block;
 }
 
 section img {
   padding: 16px;
-  border: 8px solid #000;
 }
 
 li {
@@ -27,4 +34,12 @@ li {
 
 header > div {
   text-align: right;
+}
+
+footer {
+  background: #f2f2f2;
+}
+
+footer > div {
+  padding: 20px 30px;
 }
