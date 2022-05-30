@@ -10,7 +10,12 @@ section > div {
 
 section input {
   display: block;
+  border-radius: 1.2em;
+  padding: 0.5em;
   margin: 20px auto;
+  width: 500px;
+  border-color: gray;
+  outline: none;
   font-size: large;
 }
 
