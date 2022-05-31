@@ -19,7 +19,7 @@ section input {
   padding: 0.5em;
   margin: 20px auto;
   width: 500px;
-  border-color: gray;
+  border: solid 1px gray;
   outline: none;
   font-size: large;
 }
