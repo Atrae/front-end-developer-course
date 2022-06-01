@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: gray;
+}
+
+header > svg {
+  filter: brightness(0) invert(1);
+}
+
+div.headerContainer {
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+}
+
+div.headerContainer ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 400px;
+}
+
+div.sectionContainer {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+div.leftContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  height: 500px;
+}
+
+div.rightContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar {
+  background-image: url("https://avatars.githubusercontent.com/u/103034701?v=4");
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-position: center center;
+}
+
+div.footerContainer {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+}
+
+div.footerContainer ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 800px;
+}
